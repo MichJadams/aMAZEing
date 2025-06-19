@@ -24,7 +24,7 @@ jobs:
 
       - name: Install SCons (Windows)
         if: runner.os == 'Windows'
-        run: choco install -y scons
+        run: pip install scons
 
       - name: Run SCons build
         run: scons
