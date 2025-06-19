@@ -1,7 +1,7 @@
 env = Environment()
 
 if env['CXX'] in ['g++', 'clang++']:
-    env.Append(CXXFLAGS=['-std=c++17']
+    env.Append(CXXFLAGS=['-std=c++17'])
 
 
 
